@@ -4,40 +4,37 @@
 }
 main {
   display: flex;
-  justify-content: center;
   margin-top: 50px;
+  margin-left: 140px;
+  margin-right: 140px;
 }
 
 .world-cup {
-  width: 1321px;
-  height: 646px;
   background-color: #161616;
   border-radius: 30px;
 }
 .fifa-banner {
   display: flex;
-  /* justify-content: center; */
+  justify-content: space-between;
   align-items: center;
-  width: 100%;
 }
 .banner-text {
   width: 50%;
-  height: 424px;
-  margin-top: 111px;
   margin-right: 24px;
   margin-left: 106px;
-  margin-bottom: 111px;
+  
 }
 .banner-title {
   font-weight: 700;
   font-size: 70px;
-  margin-bottom: 0%;
+  margin-top: 0; 
+  margin-bottom: 20px;
   color: #ffffff;
 }
 .banner-pera {
-  font-weight: 400;
   font-size: 16px;
-  margin-top: 20px;
+  margin-top: 0;
+  margin-bottom: 30px;
   margin-right: 50px;
   color: #ffffff;
 }
@@ -46,25 +43,24 @@ main {
   align-items: flex-end;
   gap: 10px;
   padding: 16px 25px;
-  margin-top: 30px;
-  /* margin-right: 368px; */
-  width: 187px;
+   width: 187px;
   justify-content: center;
-  background-image: linear-gradient(#f3906c, #f1694c);
+  background-image: linear-gradient(#b44e29, #a73319);
 }
 .live-button a {
   text-decoration: none;
   font-size: 20px;
   color: #ffffff;
+
 }
 .fa-greater-than {
   color: #ffffff;
 }
 .banner-image {
   width: 50%;
-  padding-bottom: 0;
+  margin-right: 80px;
+  margin-top: 33px;
 }
 .banner-image img {
-  width: 581px;
-  height: 613px;
+    width: 100%;
 }
