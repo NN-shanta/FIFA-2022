@@ -1,5 +1,5 @@
-*{
-    margin: 0%;
+* {
+  margin: 0%;
 }
 .body {
   background-color: #ffffff;
@@ -145,4 +145,14 @@ footer
   width: 1600px;
   height: 444px;
   background-color: #161616;
+}
+.goal {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  padding-top: 130px;
+}
+#break-line {
+  margin-top: 30px;
+  border: 1px solid #ffffff1a;
 }
