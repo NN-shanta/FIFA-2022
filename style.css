@@ -108,9 +108,26 @@ main {
 .special-iteam:hover {
   background-color: red;
 }
-.special-iteam a:hover{
+.special-iteam a:hover {
   color: white;
 }
 .blogs {
   width: 75%;
+  
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.blog {
+    width: 100%;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+.blog-details {
+  margin-left: 20px;
+}
+.blog-btn button {
+  width: 100px;
+  margin-top: 20px;
+  padding: 4px 17px;
+  border-radius: 5px;
 }
