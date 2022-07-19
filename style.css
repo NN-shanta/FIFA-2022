@@ -8,9 +8,12 @@ main {
   margin-left: 140px;
   margin-right: 140px;
 }
+/* <!------------------
+     banner creation 
+     ------------------> */
 
 .world-cup {
-  background-color: #161616;
+  background-color: #000000ea;
   border-radius: 30px;
 }
 .fifa-banner {
@@ -22,12 +25,11 @@ main {
   width: 50%;
   margin-right: 24px;
   margin-left: 106px;
-  
 }
 .banner-title {
-  font-weight: 700;
-  font-size: 70px;
-  margin-top: 0; 
+  font-weight: 900;
+  font-size: 60px;
+  margin-top: 0;
   margin-bottom: 20px;
   color: #ffffff;
 }
@@ -40,18 +42,20 @@ main {
 }
 .live-button {
   display: flex;
-  align-items: flex-end;
+  align-items: baseline;
   gap: 10px;
   padding: 16px 25px;
-   width: 187px;
+  width: 150px;
   justify-content: center;
-  background-image: linear-gradient(#b44e29, #a73319);
+  cursor: pointer;
+  border-radius: 10px;
+  background-image: linear-gradient(#b44e29, #5f1b0b);
 }
 .live-button a {
   text-decoration: none;
   font-size: 20px;
+  font-weight: 600;
   color: #ffffff;
-
 }
 .fa-greater-than {
   color: #ffffff;
@@ -62,5 +66,8 @@ main {
   margin-top: 33px;
 }
 .banner-image img {
-    width: 100%;
+  width: 100%;
 }
+/* <!------------------
+    banner creation 
+------------------> */
