@@ -1,3 +1,6 @@
+*{
+    margin: 0%;
+}
 .body {
   background-color: #ffffff;
   font-family: "Poppins", sans-serif;
@@ -134,4 +137,12 @@ main {
   margin-top: 20px;
   padding: 4px 17px;
   border-radius: 5px;
+}
+/* --------
+footer
+-------- */
+.footer {
+  width: 1600px;
+  height: 444px;
+  background-color: #161616;
 }
