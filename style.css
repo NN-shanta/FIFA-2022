@@ -159,6 +159,18 @@ main {
   font-size: 15px;
   color: rgb(104, 98, 98);
 }
+/* <!-- ------
+        just for tablet view 
+        -------> */
+.tablet-view {
+  margin: 0px auto;
+  padding-bottom: 40px;
+  display: none;
+}
+/* <!-- ------
+   just for tablet view 
+ -------> */
+
 /* --------
 footer
 -------- */
@@ -200,11 +212,11 @@ ul {
   text-decoration: none;
 }
 .fa-facebook {
-  background: #3B5998;
+  background: #3b5998;
   color: white;
 }
 .fa-twitter {
-  background: #55ACEE;
+  background: #55acee;
   color: white;
 }
 
