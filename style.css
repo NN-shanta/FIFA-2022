@@ -152,7 +152,7 @@ main {
 footer
 -------- */
 .footer {
-  width: 1600px;
+  width: 100vw;
   height: 444px;
   background-color: #161616;
 }
@@ -162,7 +162,8 @@ footer
   text-align: center;
   padding-top: 130px;
 }
-#break-line {
+.break-line {
+  width: 800px;
   margin-top: 30px;
-  border: 1px solid #ffffff1a;
+  border: 1px solid #726b6b1a;
 }
