@@ -90,7 +90,6 @@ main {
 }
 
 .items {
-  
   background-color: #000000ea;
   border-radius: 15px;
   display: flex;
@@ -112,10 +111,10 @@ main {
   font-size: 20px;
   color: black;
 }
-.colourful-item{
-  background-color: #DD0000;
+.colourful-item {
+  background-color: #dd0000;
 }
-#special-ancor{
+#special-ancor {
   color: #ffffff;
 }
 .blogs {
@@ -166,15 +165,11 @@ main {
     start match  for webpage 2
 ------------------> */
 
-
-
-.flags{
+.flags {
   display: flex;
   align-items: center;
   gap: 10px;
-
 }
-
 
 .match-border {
   display: flex;
@@ -187,7 +182,7 @@ main {
   border-radius: 10px;
   margin-top: 20px;
 }
-.matchs{
+.matchs {
   width: 78%;
   margin-left: 15px;
   display: grid;
@@ -274,4 +269,18 @@ ul {
 .fa-youtube {
   background: #bb0000;
   color: white;
+}
+/*------------------------
+ media query for tablet
+ -------------------------- */
+
+/*-------------------- for banner ----------*/
+
+@media only screen and (max-width: 600px) {
+  .blogs {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
