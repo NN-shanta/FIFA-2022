@@ -90,6 +90,7 @@ main {
 }
 
 .items {
+  min-width: 200px;
   background-color: #000000ea;
   border-radius: 15px;
   display: flex;
@@ -110,6 +111,12 @@ main {
   text-decoration: none;
   font-size: 20px;
   color: black;
+}
+.colourful-item{
+  background-color: #DD0000;
+}
+#special-ancor{
+  color: #ffffff;
 }
 .blogs {
   width: 78%;
