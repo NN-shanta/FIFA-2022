@@ -32,8 +32,8 @@ main {
   margin-left: 106px;
 }
 .banner-title {
-  font-weight: 900;
-  font-size: 60px;
+  font-weight: 700;
+  font-size: 5vw;
   margin-top: 0;
   margin-bottom: 20px;
   color: #ffffff;
@@ -52,7 +52,7 @@ main {
   padding: 16px 25px;
   width: 150px;
   justify-content: center;
-  /* cursor: pointer; */
+  cursor: pointer;
   border-radius: 10px;
   background-image: linear-gradient(#b44e29, #5f1b0b);
 }
@@ -79,30 +79,32 @@ main {
 
 .nav-and-Blogs {
   display: flex;
-  margin-top: 100px;
+  margin-top: 80px;
   margin-bottom: 130px;
 }
 .navber {
-  width: 25%;
+  width: 22%;
+  margin-top: 20px;
 }
 .nav-background {
-  background-color: #000000ea;
-  border-radius: 15px;
-  width: 100%;
+
 }
 .items {
+  background-color: #000000ea;
+  border-radius: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 15px;
 }
 .item {
-  margin: 20px 0px;
-  padding: 15px 30px;
+  margin: 10px 0px;
+  padding: 15px 22px;
   width: 150px;
   background-color: aliceblue;
   border-radius: 7px;
   text-align: center;
+  cursor: pointer;
 }
 .item a {
   text-decoration: none;
@@ -116,14 +118,19 @@ main {
   color: white;
 }
 .blogs {
-  width: 75%;
-  margin-left: 24px;
+  width: 78%;
+  margin-left: 15px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
+.blog-border {
+  width: 95%;
+  border: 1px solid #d8d5d5;
+  border-radius: 10px;
+  margin-top: 20px;
+}
 .blog {
-  width: 100%;
-  margin-right: 24px;
+  padding: 0px 7px;
 }
 .thumbnail img {
   width: 230px;
@@ -138,15 +145,20 @@ main {
   margin-bottom: 10px;
   padding: 4px 17px;
   border-radius: 5px;
+  cursor: pointer;
 }
-.title{
-  margin-bottom: 10px;
+.title {
+  font-size: smaller;
+  font-weight: 100;
+  margin-bottom: 15px;
 }
-.blog-info{
+.blog-info {
   display: flex;
   justify-content: start;
-  gap: 20px;
+  gap: 30px;
   margin-bottom: 20px;
+  font-size: 15px;
+  color: rgb(104, 98, 98);
 }
 /* --------
 footer
