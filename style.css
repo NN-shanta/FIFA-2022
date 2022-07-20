@@ -73,9 +73,10 @@ main {
 }
 .banner-image img {
   width: 100%;
+  height: auto;
 }
 /* <!------------------
-    Nav & Blogs creation 
+    Nav & Blogs creation  for webpage 1
 ------------------> */
 
 .nav-and-Blogs {
@@ -109,12 +110,6 @@ main {
   text-decoration: none;
   font-size: 20px;
   color: black;
-}
-.special-iteam:hover {
-  background-color: red;
-}
-.special-iteam a:hover {
-  color: white;
 }
 .blogs {
   width: 78%;
@@ -159,6 +154,55 @@ main {
   font-size: 15px;
   color: rgb(104, 98, 98);
 }
+
+/* <!------------------
+    start match  for webpage 2
+------------------> */
+
+
+
+.flags{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+}
+
+
+.match-border {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  border: 1px solid #d8d5d5;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.matchs{
+  width: 78%;
+  margin-left: 15px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.match {
+  padding: 0px 7px;
+}
+.match-text {
+  margin-top: 20px;
+}
+.match-title {
+  margin-bottom: 15px;
+}
+.date {
+  font-size: 15px;
+  color: rgb(104, 98, 98);
+}
+/* <!------------------
+    end match  for webpage 2
+------------------> */
+
 /* <!-- ------
         just for tablet view 
         -------> */
