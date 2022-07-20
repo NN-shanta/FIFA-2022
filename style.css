@@ -85,12 +85,12 @@ main {
   margin-bottom: 130px;
 }
 .navber {
-  width: 22%;
+  min-width: 220px;
   margin-top: 20px;
 }
 
 .items {
-  min-width: 200px;
+  
   background-color: #000000ea;
   border-radius: 15px;
   display: flex;
