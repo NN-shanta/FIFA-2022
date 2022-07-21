@@ -276,11 +276,23 @@ ul {
 
 /*-------------------- for banner ----------*/
 
-@media only screen and (max-width: 600px) {
-  .blogs {
+@media only screen and (max-width: 600px){
+  .world-cup .fifa-banner{
+    flex-direction: column;
+  }
+  .banner-text{
+    width: 100vw;
+    text-align: center;
+    margin-top: 20px;
+    padding:10px 10px;
+  }
+  .banner-image{
     width: 100%;
     height: auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+  }
+  .live-button{
+    margin: 0 auto;
+    padding: 20px;
   }
 }
