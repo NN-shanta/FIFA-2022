@@ -405,15 +405,107 @@ main {
   row-gap: 30px;
   font-size: 1.5em;
 }
-.social-media {
+
+.social-media a {
+  margin-bottom: 10%;
+}
+}
+/*------------------------
+responsive for Tablet
+ -------------------------- */
+
+ @media only screen and (min-width:601px) and (max-width: 768px){
+
+  main {
   display: flex;
   justify-content: center;
-  gap: 20px;
-  font-size: 30px;
-  margin-top: 80px;
-  color: white;
+  margin-top: 50px;
+  margin: 10px 20px;
+}
+  /* for banner */
+  .banner-text{
+    width:60vw;
+    margin: 30px auto;
+    padding:0px 50px;
+  }
+  .banner-title {
+    font-size: 2.5em;
+  }
+  .banner-pera{
+    font-size: 1.3em;
+    margin: 40px auto;
+  }
+
+  .banner-image{
+    width: 80%;
+    height: 100%;
+    margin:  0px auto;
+  }
+  .live-button{
+    margin: 0 auto;
+    padding:10px 5px;
+  }
+
+/* for navber & blogs */
+ .nav-and-Blogs{
+  display:flex;
+  flex-direction: column;
+ }
+ .navber{
+  width:100%;
+ }
+ .items{
+  display: flex!important;
+  flex-direction:row!important;
+  max-width:100%;
+  background-color:transparent;
+ }
+ .items .item{
+  margin-right:10px;
+ }
+ .blogs {
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  
+}
+.tablet-hide{
+  display:none!important;
+}
+.tablet-view{
+  display:block;
+}
+.blog-border {
+  width: 100%;
+}
+.blog-btn button {
+  font-size: 1.3em;
+  padding: 3px 10px;
+
+}
+.title {
+  font-size: 1em;
+}
+.blog-info {
+  gap: 20%;
+  font-size: 1.3em;
+}
+/* for fooer */
+.footer {
+  height: auto;
+}
+.goal {
+  font-size: 2.5em;
+  padding-top: 70px;
+}
+.contact {
+  width: 90%;
+  row-gap: 30px;
+  display: flex;
+  flex-wrap: wrap;
 }
 .social-media a {
   margin-bottom: 10%;
 }
+
 }
