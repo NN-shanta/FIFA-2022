@@ -271,28 +271,72 @@ ul {
   color: white;
 }
 /*------------------------
- media query for tablet
+responsive for mobile
  -------------------------- */
 
-/*-------------------- for banner ----------*/
-
 @media only screen and (max-width: 600px){
+/*--- for banner ---*/
+
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin: 10px 20px;
+}
   .world-cup .fifa-banner{
     flex-direction: column;
   }
   .banner-text{
-    width: 100vw;
+    width:60vw;
     text-align: center;
-    margin-top: 20px;
+    margin: 20px auto;
     padding:10px 10px;
   }
+  .banner-pera{
+    margin: 20px auto;
+  }
+
   .banner-image{
-    width: 100%;
+    width: 60%;
     height: auto;
     margin: 0 auto;
   }
   .live-button{
     margin: 0 auto;
-    padding: 20px;
+    padding:10px 5px;
   }
+  /*--- for navber and blogs ---*/
+  .nav-and-Blogs {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  }
+  .navber {
+  margin: 20px auto;
+  }
+  .items {
+  background-color: white;
+  align-items: center;
+  
+}
+.item{
+  border:1px solid #221d1d21;
+  font-weight: 600;
+  
+}
+.item a{
+  font-size: 2em;
+}
+.blogs {
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.blog-border {
+  width: 100%;
+}
+.thumbnail img {
+  width: 100%;
+  height: auto;
+}
 }
