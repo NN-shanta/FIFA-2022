@@ -355,6 +355,40 @@ main {
   gap: 20%;
   font-size: 1.3em;
 }
+/* <!------------------
+    start match  for webpage 2
+------------------> */
+
+.flags {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.flag img{
+  width:170px;
+  height: 100%;
+}
+.matchs {
+  width: 100%;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.match-title {
+  font-size: 1.5em;
+}
+.date {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+
+}
+/* <!------------------
+    end match  for webpage 2
+------------------> */
+
 /*--- for footer ---*/
 .footer {
   height: auto;
