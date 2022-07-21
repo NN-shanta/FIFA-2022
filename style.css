@@ -34,7 +34,7 @@ main {
 }
 .banner-title {
   font-weight: 700;
-  font-size: 5vw;
+  font-size: 3.5em;
   margin-top: 0;
   margin-bottom: 20px;
   color: #ffffff;
@@ -289,11 +289,15 @@ main {
   .banner-text{
     width:60vw;
     text-align: center;
-    margin: 20px auto;
+    margin: 30px auto;
     padding:10px 10px;
   }
+  .banner-title {
+    font-size: 10vw;
+  }
   .banner-pera{
-    margin: 20px auto;
+    font-size: 1.3em;
+    margin: 40px auto;
   }
 
   .banner-image{
@@ -328,6 +332,7 @@ main {
   font-size: 2em;
 }
 .blogs {
+  width: 100%;
   margin: 0px auto;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -338,5 +343,43 @@ main {
 .thumbnail img {
   width: 100%;
   height: auto;
+}
+.blog-btn button {
+  width: 30%;
+  font-size: 1.3em;
+}
+.title {
+  font-size: 1.5em;
+}
+.blog-info {
+  gap: 20%;
+  font-size: 1.3em;
+}
+/*--- for footer ---*/
+.footer {
+  height: auto;
+}
+.goal {
+  font-size: 2.5em;
+  padding-top: 70px;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 30px;
+  font-size: 1.5em;
+}
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 30px;
+  margin-top: 80px;
+  color: white;
+}
+.social-media a {
+  margin-bottom: 10%;
 }
 }
