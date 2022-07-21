@@ -21,12 +21,18 @@ main {
 .world-cup {
   background-color: #000000ea;
   border-radius: 30px;
+  width:100%;
+  transition: width 2s;
 }
 .fifa-banner {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+.world-cup:hover{
+  width:105%;
+}
+
 .banner-text {
   width: 50%;
   margin-right: 24px;
@@ -209,7 +215,7 @@ main {
         just for tablet view 
         -------> */
 .tablet-view {
-  margin: 0px auto;
+  margin: 20px auto;
   padding-bottom: 40px;
   display: none;
 }
@@ -490,7 +496,23 @@ responsive for Tablet
   gap: 20%;
   font-size: 1.3em;
 }
-/* for fooer */
+/* <!------------------
+    start match  for webpage 2
+------------------> */
+
+.matchs {
+  width: 100%;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* <!------------------
+    end match  for webpage 2
+------------------> */
+
+
+/* for footer */
 .footer {
   height: auto;
 }
